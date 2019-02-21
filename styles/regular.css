@@ -111,11 +111,11 @@ p a:hover::after
 }
 ::selection
 {
-	
+
 }
 p::selection
 {
-	
+
 }
 h1{font-size: 40px;}
 h2{font-size: 30px;}
@@ -131,14 +131,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 .form-control
 {
@@ -281,7 +281,7 @@ section
 }
 .top_bar_phone
 {
-	
+
 }
 .top_bar_title
 {
@@ -291,7 +291,7 @@ section
 }
 .top_bar_lang
 {
-	display: inline-block;	
+	display: inline-block;
 }
 .lang_list
 {
@@ -343,8 +343,8 @@ section
 .lang_list > li ul li
 {
 	text-align: right;
-	
-	
+
+
 }
 .lang_list > li ul li a
 {
@@ -441,7 +441,7 @@ section
 	font-family: 'Poppins', serif;
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 0.75;
+	line-height: 1;
 	color: #2e21df;
 	vertical-align: middle;
 	-webkit-transition: all 200ms ease;
@@ -571,9 +571,9 @@ section
 	font-size: 14px !important;
 	font-weight: 500 !important;
 	color: rgba(0,0,0,0.15) !important;
-} 
+}
 .header_search_input:-ms-input-placeholder
-{ 
+{
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
@@ -821,9 +821,9 @@ section
 	font-size: 14px !important;
 	font-weight: 500 !important;
 	color: rgba(0,0,0,0.15) !important;
-} 
+}
 .menu .search_input:-ms-input-placeholder
-{ 
+{
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px !important;
 	font-weight: 500 !important;
@@ -933,8 +933,8 @@ section
 .regular
 {
 	width: 100%;
-	padding-top: 80px;
-	padding-bottom: 150px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	background: #f8f8f8;
 }
 .regular_content
@@ -1060,9 +1060,9 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-} 
+}
 .newsletter_input:-ms-input-placeholder
-{ 
+{
 	font-size: 14px !important;
 	font-weight: 600 !important;
 	color: rgba(255,255,255,0.4) !important;
@@ -1097,10 +1097,10 @@ section
 .newsletter_input:focus::-moz-placeholder
 {
 	color: rgba(255,255,255,1) !important;
-} 
+}
 .newsletter_input:hover:-ms-input-placeholder,
 .newsletter_input:focus:-ms-input-placeholder
-{ 
+{
 	color: rgba(255,255,255,1) !important;
 }
 .newsletter_input:hover::input-placeholder,
